@@ -3,12 +3,13 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="layout-reverse">
 
     {% include sidebar.html %}
 
     <div class="content container">
       {{ content }}
+      {% include disqus.html %}
     </div>
 
   </body>

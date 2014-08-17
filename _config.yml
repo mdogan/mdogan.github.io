@@ -1,25 +1,22 @@
 # Dependencies
 markdown:         redcarpet
 pygments:         true
+highlighter:      pygments
+
+kramdown:
+  input:        GFM
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
+title:            Stale Memory
+description:      'Lost Writes, Stale Reads'
+url:              ''
+baseurl:          '/'
 paginate:         5
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+author:
+  name:           'Mehmet Dogan'
+  twitter:        https://twitter.com/mmdogan
+  github:         https://github.com/mdogan
