@@ -1,9 +1,9 @@
 ---
 layout: post
-title: JFreeChart in Eclipse RCP & SWT!
+title: JFreeChart in Eclipse RCP & SWT
 published: true
 tags: java, eclipse, swt
-comments: false
+comments: true
 ---
 
 To use JFreeChart in a Eclipse RCP project or simply embed in an SWT composite, you have two applicable choices:
@@ -11,12 +11,14 @@ To use JFreeChart in a Eclipse RCP project or simply embed in an SWT composite, 
 
 SWT_AWT bridge, hmm, not perfect but plays its role better.
 
-- Create a container composite with SWT.EMBEDED style (required for SWT_AWT).
+- Create a container composite with `SWT.EMBEDED` style (required for `SWT_AWT`).
+
 ```java
 Composite container = new Composite(parent, SWT.EMBEDDED)
 ```
 
 - Create new AWT Frame using container.
+
 ```java
 java.awt.Frame chartFrame = SWT_AWT.new_Frame(container)
 ```

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Using AspectJ in Ecplipse RCP
+title: Using AspectJ in Ecplipse RCP
 published: true
 tags: java, eclipse, aspectj
 comments: false
