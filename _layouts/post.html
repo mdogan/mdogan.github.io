@@ -10,6 +10,8 @@ layout: default
 
 {% include social.html %}
 
+{% comment %}
+
 {% if site.related_posts.size > 0 %}
 <div class="related">
   <h2>Related Posts</h2>
@@ -27,5 +29,7 @@ layout: default
   </ul>
 </div>
 {% endif %}
+
+{% endcomment %}
 
 {% include comments.html %}
