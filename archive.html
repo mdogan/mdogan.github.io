@@ -1,0 +1,18 @@
+---
+layout : page
+title  : Archive
+---
+
+
+{% for post in site.posts %}
+  {% capture postDate %}{{post.date | date: "%B %Y"}}{% endcapture %}
+  {% if postDate != currentDate %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <span class="post-date">{{ postDate }}</span>
+    <ul>
+    {% capture currentDate %}{{postDate}}{% endcapture %}
+  {% endif %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}

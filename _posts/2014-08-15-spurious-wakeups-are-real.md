@@ -6,7 +6,7 @@ tags: java, concurrency, hazelcast
 comments: true
 ---
 
-Most probably you heard *spurious wakeup* term many times, you read it in many API docs. But have you actually seen it? Is it real?
+Most probably you heard *spurious wakeup* term many times, you read it in many API docs. But have you actually seen it in the wild? Is it real?
 
 [Here is wikipedia definition](http://en.wikipedia.org/wiki/Spurious_wakeup):
 
