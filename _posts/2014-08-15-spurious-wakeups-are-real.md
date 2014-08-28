@@ -72,7 +72,7 @@ try {
 // Thread-2
 lock.lock();
 try {
-    response == value;
+    response = value;
     noResponse.signal();
 } finally {
     lock.unlock();
