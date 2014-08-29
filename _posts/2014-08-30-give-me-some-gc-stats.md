@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plz give me some GC stats...
-published: true
+published: false
 tags: java, memory, GC
 comments: false
 ---
