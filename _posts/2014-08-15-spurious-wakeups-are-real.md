@@ -3,7 +3,7 @@ layout: post
 title: Spurious wakeups are real!
 published: true
 tags: java, concurrency, hazelcast
-comments: true
+comments: false
 ---
 
 Most probably you heard *spurious wakeup* term many times, you read it in many API docs. But have you actually seen it in the wild? Is it real?
