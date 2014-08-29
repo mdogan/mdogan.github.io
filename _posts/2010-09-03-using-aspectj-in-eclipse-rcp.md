@@ -15,3 +15,4 @@ But since version 3.6 you will not see that option. Instead you should just add 
 compilerAdapter = org.eclipse.ajdt.core.ant.AJDT_AjcCompilerAdapter
 sourceFileExtensions = *.java, *.aj
 ```
+*Migrated from old blog: [using-aspectj-in-eclipse-rcp](http://mmdogan.blogspot.com.tr/2010/09/using-aspectj-in-eclipse-rcp-36.html)*

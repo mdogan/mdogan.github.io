@@ -35,3 +35,5 @@ SwingUtilities.invokeLater(new Runnable() {
 ```
 
 That's it!
+
+*Migrated from old blog: [jfreechart-in-eclipse-rcp-swt](http://mmdogan.blogspot.com/2010/09/jfreechart-in-eclipse-rcp-swt.html)*

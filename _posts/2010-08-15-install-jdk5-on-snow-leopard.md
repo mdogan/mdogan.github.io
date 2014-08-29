@@ -38,3 +38,5 @@ Create new symlinks to 1.5.0-leo
 sudo ln -s 1.5.0-leo 1.5.0
 sudo ln -s 1.5.0 1.5
 ```
+
+*Migrated from old blog: [install-jdk-5-on-snow-leopard](http://mmdogan.blogspot.com/2010/09/install-jdk-5-on-snow-leopard.html)*
