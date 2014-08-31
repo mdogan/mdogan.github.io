@@ -2,13 +2,15 @@
 layout: post
 title: How many bytes can I store here, sir?
 published: true
-tags: java, memory, jvm
-comments: false
+tags: java memory jvm
+comments: true
 ---
 
 Every operating system has its own special procedure to access memory information and statistics. In Linux one can read `/proc` filesystem, in nearly every OS one can fork a subprocess to execute a system command to find out memory information or call a system dependent API.
 
 But since *Java* has the motto of **write once run everywhere**, how can one access memory information in Java?
+
+<!--excerpt-->
 
 ### Memory belonging to JVM process
 

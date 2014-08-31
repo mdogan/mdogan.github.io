@@ -2,6 +2,7 @@
 layout: post
 title: Install JDK 5 on Snow Leopard
 published: true
+tags: osx jdk mac
 comments: false
 ---
 

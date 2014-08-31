@@ -2,8 +2,8 @@
 layout: post
 title: Spurious wakeups are real!
 published: true
-tags: java, concurrency, hazelcast
-comments: false
+tags: java concurrency hazelcast
+comments: true
 ---
 
 Most probably you heard *spurious wakeup* term many times, you read it in many API docs. But have you actually seen it in the wild? Is it real?
@@ -14,6 +14,7 @@ Most probably you heard *spurious wakeup* term many times, you read it in many A
 
 > Even after a condition variable appears to have been signaled from a waiting thread's point of view, the condition that was awaited may still be false.
 
+<!--excerpt-->
 
 Simply, it means a thread can wakeup from its waiting state without being signaled or interrupted or timing out. To make things correct, awakened thread has to verify the condition that should have caused the thread to be awakened. And it must continue waiting if the condition is not satisfied.  
 

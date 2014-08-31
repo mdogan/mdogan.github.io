@@ -14,7 +14,17 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    <span class="post-date">
+      {% for tag in post.tags %}
+          <a href="/tags/#{{ tag }}"><span class="badge">{{ tag }}</span></a>
+      {% endfor %}
+    </span>
+
+    {{ post.content | split:'<!--excerpt-->' | first }}
+
+    {% if post.content contains '<!--excerpt-->' %}
+        <p><a href="{{ post.url }}"> More &gt;&gt;&gt; </a></p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>

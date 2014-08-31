@@ -14,7 +14,7 @@ title:            Stale Memory
 description:      'Lost Writes, Stale Reads'
 url:              ''
 baseurl:          '/'
-paginate:         4
+paginate:         5
 
 author:
   name:           'Mehmet Dogan'
