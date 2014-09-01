@@ -6,7 +6,7 @@ tags: java memory GC jvm
 comments: true
 ---
 
-While analysing application memory usage and inspecting allocation/garbage creation patterns, we generally need to know garbage collection count, time, rate etc. Although most of the profilers give this information out-of-the-box or JVM already has builtin flags to enable GC logging in many details, sometimes we want to access GC information programatically.
+While analysing application memory usage and inspecting allocation/garbage creation patterns, we generally need to know garbage collection count, time, rate etc. Although most of the profilers give this information out-of-the-box or JVM already has builtin flags to enable GC logging in many details, sometimes we want to access GC information programmatically.
 
 Fortunately, there's a formal/public API in JDK to gather some useful information: `java.lang.management.GarbageCollectorMXBean`.
 
