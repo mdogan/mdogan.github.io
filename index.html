@@ -23,7 +23,7 @@ title: Home
     {{ post.content | split:'<!--excerpt-->' | first }}
 
     {% if post.content contains '<!--excerpt-->' %}
-        <p><a href="{{ post.url }}"> More &gt;&gt;&gt; </a></p>
+        <p><a style="float: right;" href="{{ post.url }}"> More &gt;&gt;&gt; </a></p>
     {% endif %}
   </div>
   {% endfor %}
