@@ -3,9 +3,6 @@ markdown:         redcarpet
 pygments:         true
 highlighter:      pygments
 
-kramdown:
-  input:        GFM
-
 # Permalinks
 permalink:        pretty
 
@@ -15,6 +12,7 @@ description:      'Lost Writes, Stale Reads'
 url:              ''
 baseurl:          '/'
 paginate:         5
+analytics:        true
 
 author:
   name:           'Mehmet Dogan'
