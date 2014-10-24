@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Don't call us, Hazelcast will call you when you arrive!
+title: Don't call us, Hazelcast will call you!
 published: true
 tags: java dependency injection hazelcast cdi jsr330 spring guice
 comments: true
