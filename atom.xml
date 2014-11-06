@@ -24,8 +24,9 @@ layout: nil
    <content type="html">
        {{ post.content | xml_escape }}
        &lt;br/&gt;
-       &lt;span style='font-style: italic'&gt;
-        This post is originally published at {{ site.url }}{{ post.url }}
+       &lt;span style='font-size: smaller; font-style: italic'&gt;
+        *** This post was originally published at &lt;a href='{{ site.url }}{{ post.url }}'&gt;
+        {{ site.url }}{{ post.url }}&lt;/a&gt;
        &lt;/span&gt;
    </content>
  </entry>
