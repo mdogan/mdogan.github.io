@@ -9,7 +9,8 @@ permalink:        pretty
 # Setup
 title:            Stale Memory
 description:      'Lost Writes, Stale Reads'
-url:              'http://blog.dogan.io'
+url:              https://blog.dogan.io
+enforce_ssl:      blog.dogan.io
 baseurl:          '/'
 paginate:         5
 analytics:        true
