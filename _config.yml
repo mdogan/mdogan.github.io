@@ -19,3 +19,9 @@ author:
   name:           'Mehmet Dogan'
   twitter:        https://twitter.com/mmdogan
   github:         https://github.com/mdogan
+
+gems:
+  - jekyll-feed
+
+feed:
+  path: atom.xml
