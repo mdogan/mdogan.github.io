@@ -1,10 +1,16 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+#markdown:         redcarpet
+markdown:         kramdown
+#highlighter:      pygments
+highlighter:      rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:            Stale Memory
@@ -20,8 +26,9 @@ author:
   twitter:        https://twitter.com/mmdogan
   github:         https://github.com/mdogan
 
-gems:
+plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 feed:
   path: atom.xml
